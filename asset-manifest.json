@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Frontend/1231/static/js/main.feefbd4e.js",
-    "index.html": "/Frontend/1231/index.html",
-    "main.feefbd4e.js.map": "/Frontend/1231/static/js/main.feefbd4e.js.map"
+    "main.js": "/Frontend/static/js/main.feefbd4e.js",
+    "index.html": "/Frontend/index.html",
+    "main.feefbd4e.js.map": "/Frontend/static/js/main.feefbd4e.js.map"
   },
   "entrypoints": [
     "static/js/main.feefbd4e.js"
