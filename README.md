@@ -186,6 +186,7 @@ const {id} = useParams();
    - git hub에 push
      - package.json 맨 아래에 `"homepage" : "https://jay-one11.github.io/my-id/my-repo"` 입력
      - package.json의 scripts 내부에 `"deploy": "gh-pages -d build"` , `"predeploy": "npm run build"`추가
+     - 터미널에 `npm run deploy` 수행후 3~4분 후 url 접속
 
 ---
 
