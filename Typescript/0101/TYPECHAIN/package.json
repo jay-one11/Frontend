@@ -1,0 +1,18 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning TypeScript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/jay-one11/Frontend",
+  "author": "CheonJaeWon",
+  "license": "INU",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
