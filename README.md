@@ -178,6 +178,15 @@ const {id} = useParams();
  </h2>
 ```
 
+7. ### publishing
+   - `npm i gh-pages` 설치
+   - `pakage.json`에 run build 가 있는 지 확인 후
+   - 터미널에 `npm run build`
+     - 코드를 압축, 최적화된 production code로 제작
+   - git hub에 push
+     - package.json 맨 아래에 `"homepage" : "https://jay-one11.github.io/my-id/my-repo"` 입력
+     - package.json의 scripts 내부에 `"deploy": "gh-pages -d build"` , `"predeploy": "npm run build"`추가
+
 ---
 
 복합적 구현하기 1. Hello Function
